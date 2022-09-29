@@ -15,7 +15,7 @@ body {
     text-align: center;
     color: white;
     display: block;
-    
+
 
 }
 
@@ -70,7 +70,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     margin-top: -40px;
     position: relative;
-   background-color: aliceblue;
+    background-color: aliceblue;
 }
 
 .subhed {
@@ -81,12 +81,19 @@ body {
     padding-top: 20px;
 }
 
-.subhed >div{width: 15%;padding: 4px; }
-
-.subhed >div >img {width:30% ;
+.subhed>div {
+    width: 15%;
+    padding: 4px;
 }
 
-.subhed >div >img+p {font-size: 14px;margin-top: 5px;}
+.subhed>div>img {
+    width: 30%;
+}
+
+.subhed>div>img+p {
+    font-size: 14px;
+    margin-top: 5px;
+}
 
 #hed-top1 {
     width: 70%;
@@ -168,4 +175,3 @@ body {
     margin-top: 40px;
     margin-bottom: 20px;
 }
-
