@@ -15,6 +15,7 @@ body {
     text-align: center;
     color: white;
     display: block;
+    
 
 }
 
@@ -63,6 +64,30 @@ body {
     border: 0px;
 }
 
+#hed-top {
+    width: 65%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-top: -40px;
+    position: relative;
+   background-color: aliceblue;
+}
+
+.subhed {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.subhed >div{width: 15%;padding: 4px; }
+
+.subhed >div >img {width:30% ;
+}
+
+.subhed >div >img+p {font-size: 14px;margin-top: 5px;}
+
 #hed-top1 {
     width: 70%;
     height: auto;
@@ -105,7 +130,7 @@ body {
 
 .h3d-t4 {
     width: 70%;
-    height: auto;
+    height: 300px;
     gap: 20px;
     display: flex;
     margin: auto;
@@ -143,3 +168,4 @@ body {
     margin-top: 40px;
     margin-bottom: 20px;
 }
+
