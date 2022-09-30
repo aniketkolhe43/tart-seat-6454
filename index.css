@@ -175,3 +175,22 @@ body {
     margin-top: 40px;
     margin-bottom: 20px;
 }
+
+#footoer p {
+    color: white;
+    width: auto;
+    
+    text-align: start;
+    margin-right: 25px;
+}
+
+
+#sufoot>div {
+    width: 75%;
+    display: flex;
+    margin: auto;
+    row-gap: -10px;
+    border: 1px violet solid;
+    flex-wrap: wrap;
+    line-height: 1px;
+}
