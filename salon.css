@@ -113,28 +113,80 @@ hr {
 #last {
     width: 75%;
     margin: auto;
-    border: 1px red solid;
+    border: 0px red solid;
     height: auto;
     display: flex;
-    
+    margin-top: 20px;
+    gap: 20%;
 }
 
 #last1 {
-    width: 60%;
-    border: 1px yellow solid;
-    
-}
-#last2>div {
     width: 70%;
-    height: 50px;
-    background-color: #b9b7b7;
-    line-height: 5px;
+    border: 0px yellow solid;
+
+}
+
+.p1 {
+    font-size: 18px;
+    color: #46a8ab;
+}
+
+.p2 {
+    margin-top: -13px;
+}
+
+#last2>div {
+    width: 97%;
+    height: 40px;
+    background-color: rgb(245, 245, 245);
+    line-height: 0px;
     border-radius: 10px;
     padding: 5px;
+    margin-bottom: 20px;
+}
+
+#last2>div>h4 {
+    margin-top: 10px;
+}
+
+#last1>div>p {
+    color: aqua;
 }
 
 #last2 {
-    width: 40%;
-    border: 1px blue solid;
+    width: 35%;
+    margin-top: 20px;
 }
 
+.butto {
+    width: 70%;
+    border: 0px violet solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+
+}
+
+.butto>button {
+    width: 13%;
+    height: 27px;
+    background-color: white;
+    border-radius: 5px;
+    color: #784be5;
+    font-weight: bold;
+    font-size: 16px;
+    border: #dedede solid 2px;
+
+}
+
+.hsr {
+    width: 80%;
+    margin-left: 0px;
+    background-color: rgb(238, 237, 237);
+}
+
+.hsr1 {
+    width: 70%;
+    margin-left: 0px;
+}
