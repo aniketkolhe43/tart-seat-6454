@@ -109,6 +109,8 @@ hr {
     width: 65%;
     border-radius: 5px;
 }
+a {text-decoration: none;
+ color: black;   }
 
 #last {
     width: 75%;
@@ -117,7 +119,7 @@ hr {
     height: auto;
     display: flex;
     margin-top: 20px;
-    gap: 20%;
+    gap: 10%;
 }
 
 #last1 {
@@ -190,3 +192,13 @@ hr {
     width: 70%;
     margin-left: 0px;
 }
+
+.dit {
+    height: 25px;
+    font-weight: bold;
+    background-color: white;
+    border: #dedede solid 2px;
+}
+
+
+

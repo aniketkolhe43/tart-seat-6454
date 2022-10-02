@@ -6,7 +6,7 @@ arr1 = ["About Us", "UC Impact", "Terms & Condition", "Privacy Policy",
 
  ind= ["Agar","Ahemedabad","Alwar","Amritsar","Aurangabad","Banglore",
 "Bhopal","Bhubaneswar","Chandigarh tricity","Chenaai","Coimbatore","Cuttack",
-""]
+"Dehradun"]
 function foot (arr1) {
 let f=document.getElementById("sufoot")
 
@@ -21,3 +21,6 @@ arr1.forEach(element => {
 }
 
 foot (arr1)
+
+foot (usa)
+
